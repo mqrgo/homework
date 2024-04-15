@@ -1,3 +1,3 @@
 ## homework
 
-[Ссылка на репозиторий](https://github.com/mqrgo/homework.git)
+- [Lesson 2](https://github.com/mqrgo/homework.git)
