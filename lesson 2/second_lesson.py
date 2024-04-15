@@ -1,6 +1,11 @@
 #1) Попросите пользователя ввести строку и выведите ее в обратном порядке, не используя метод reverse() и sorted().
 def reverse_without_methods(txt: str) -> str:
     return txt[::-1]
+print('Task 1:')
+text = input('txt: ')
+print(reverse_without_methods(text))
+print('-' * 50)
+
 
 #2) Замените в пользовательской строке все появления буквы h на букву H, кроме первого и последнего вхождения.
 def replace_h(txt: str) -> str:
@@ -46,7 +51,7 @@ def format_initials(txt: str) -> str:
 # пустой список целое число и строку "Иголка". Выведите на экран конечную строку.
 lst = [1, [1.1, [2 + 3j, [[], 1, 'Иголка']]]]
 print('Task 7:')
-print(lst)
+print(lst[1][1][1][2])
 print('-' * 50)
 
 
