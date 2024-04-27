@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Date::Time</title>
+    <script>
+        function updateDateTime() {
+            location.reload();
+        }
+        setInterval(updateDateTime, 1000);
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div id="datetime">
+            <span id="date">{% now "d.m.Y" %}</span>
+            <br>
+            <span id="time">{% now "H:i:s" %}</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+#container {
+    margin: 100px auto;
+}
+
+#message {
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+    text-align: center;
+    width: 800px;
+    margin: 0px auto;
+}
+
+#datetime {
+    border: 1px solid black;  
+    text-align: center;  
+    font-size: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+#date {
+    font-weight: 900;
+    border-bottom: 2px solid white;
+}
