@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(0, 0, 0, 0.873);
+    color: rgba(0, 0, 0, 0.873);
+}
+
+.container {
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.inner {
+    padding: 50px;
+}
+
+/* #message {
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+    text-align: center;
+    width: 800px;
+    margin: 0px auto;
+}
+
+#datetime {
+    border: 1px solid black;  
+    text-align: center;  
+    font-size: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+#date {
+    font-weight: 900;
+    border-bottom: 2px solid white;
+} */
