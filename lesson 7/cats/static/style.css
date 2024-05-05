@@ -1,0 +1,27 @@
+.container {
+    margin: 30px 0px;
+}
+
+.inner {
+    padding: 10px;
+}
+
+.figure-caption {
+    padding-bottom: 10px;
+}
+
+figure {
+    background-color: #ffffffde;
+    cursor: pointer;
+    transition: .9s ease;
+}
+
+figure:hover{
+    box-shadow: 10px 10px #141414;
+    transform: translateX(-3px);
+    transition: .5s ease;
+}
+
+.description {
+    text-align: justify;
+}

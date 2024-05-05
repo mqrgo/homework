@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Котики!{% endblock %}
+{% block header %}Котики! {% endblock %}
+{% block content %}
+    <div class="row">
+        {% for cat in cats %}
+            <div class="col-md-4">
+                <a href="{% url 'cats:about' cat.pk %}">
+                    <figure class="figure rounded">
+                        <img src="{{cat.photo.url}}" alt="" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption text-center text-black">{{cat.name}}</figcaption>
+                    </figure>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{cat.name}}
+{% endblock %}
+{% block header %}
+    {{cat.name}}
+{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-6">
+            <div class="description">{{cat.description}}</div>
+        </div>
+        <div class="col-md-6">
+            <img src="{{cat.photo.url}}" alt="" class="figure-img img-fluid rounded">
+        </div>
+    </div>
+{% endblock %}
+
