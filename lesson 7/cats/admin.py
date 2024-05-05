@@ -6,7 +6,7 @@ from django.utils.safestring import mark_safe
 
 
 class CatAdmin(admin.ModelAdmin):
-    list_display = ['name', 'display_photo']
+    list_display = ['name', 'display_photo', 'slug']
     
     @admin.display
     def display_photo(self, cat: Cat):
