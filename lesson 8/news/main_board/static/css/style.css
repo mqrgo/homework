@@ -1,5 +1,5 @@
 body {
-    background-color: #59a5f5 !important;
+    background-color: #97acc3 !important;
 }
 
 .post-inner {
@@ -44,11 +44,11 @@ img {
 
 a {
     text-decoration: none;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 a.post-link:hover {
-    background-color: #59a5f5;
+    background-color: #97acc3;
 }
 
 a.nav-link:hover {

@@ -1,10 +1,10 @@
 {% extends "base.html" %}
-
+{% comment %} post.get_absolute_url {% endcomment %}
 {% block title %}Новости{% endblock %}
 {% block content %}
     <div class="row justify-content-center">
         {% for post in posts %}
-                <a href="{{ post.get_absolute_url }}" class="text-decoration-none text-black col-md-3 post rounded post-link">    
+                <a href="{{post.get_absolute_url}}" class="text-decoration-none text-black col-md-3 post rounded post-link">    
                         <div class="post-inner">
                             <h2 class="fs-6">{{ post.title }}</h2>
                             <div class="post-title fw-normal fs-9">Категория: 
